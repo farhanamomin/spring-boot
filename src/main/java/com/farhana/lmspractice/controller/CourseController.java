@@ -19,7 +19,7 @@ public class CourseController {
 
     @Autowired
     CourseService courseService;
-      @PostMapping("/welcome")
+      @GetMapping("/welcome")
     public  String welcomeMessage(){
         return "WELCOME";
     }
